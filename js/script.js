@@ -156,11 +156,11 @@ function showResult() {
   let scoreTag = '';
 
   if (userScore > 3) {
-    scoreTag = `<span>and congrats! 🎉, You got <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
+    scoreTag = `<span>and congrats!🎉,You got <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
   } else if (userScore > 1) {
-    scoreTag = `<span>and nice 😎, You got <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
+    scoreTag = `<span>and nice😎,You got <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
   } else {
-    scoreTag = `<span>and sorry 😐, You got only <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
+    scoreTag = `<span>and sorry😐,You got only <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
   }
 
   scoreText.innerHTML = scoreTag;
